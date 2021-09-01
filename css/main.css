@@ -1,0 +1,4349 @@
+html, body{margin:0px;  padding:0px;}
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+    -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+* ,::after, ::before{
+ box-sizing: border-box;
+}
+.body-background-forms{
+ background-color: rgb(246, 247, 248);
+}
+.product-section-name{
+    color:#0067B6;
+}
+.bottom-footer-nav{
+    height: 50vh;
+    width: 100%;
+}
+#footer{
+    position: fixed;
+    color: black;
+    bottom:0;
+    width: 100vw;
+    height:17px;
+    background-color:transparent; 
+    text-align: center;
+    font-size: 0.9em;
+ }
+
+.body-background{
+     background-color: rgb(246, 247, 248);
+   
+   
+}
+.information-background{
+    background-color: white;
+    margin: auto;
+    width: 900px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.productImg-link{
+    cursor: pointer; 
+    background-color: transparent; 
+    outline-color: none;
+ }
+
+
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    margin-right: 30px;
+    font-size: 1.7em;
+    color: white;
+  }
+   
+  /* The container  - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    outline-color: transparent;
+  }
+    .dropdown-content {
+    display: none;
+    margin-top: 40px;
+    border-radius: 2px;
+    position: absolute;
+    background-color: white;
+    width: 130px;
+    overflow: hidden;
+    right: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 15;
+  }
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    list-style: none;
+    display: block;
+    font-size: 0.8em;
+  }
+  .badge-danger{
+    font-weight: bold;
+    padding: 2px; 
+    text-align:center; 
+    background-color: red; 
+    height: 20px; 
+    width: 20px; 
+    border-radius: 50%;
+    position: absolute; 
+    top: -2px; 
+    right: 17px;
+    color: white;
+    border-radius: 50%;
+    font-size: 0.8em;
+  }
+  /* Change color of dropdown links on hover */
+  .dropdown-content li:hover {background-color: white;}
+  
+  
+/*notication dropdown*/
+     /* The container  - needed to position the dropdown content */
+     .dropdownNotification {
+        display: none;
+        margin-top: 40px;
+        border-radius: 2px;
+        position: absolute;
+        background-color: white;
+        width: 130px;
+        overflow: hidden;
+        right: 5px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 15;
+      }
+        /* Links inside the dropdown */
+        .dropdownNotification  a{
+            color: black;
+            display: block;
+            font-size: 0.8em;
+          }  
+  .notifybtn {
+    color: white;
+    margin-right: 25px;
+    font-size: 1.7em;
+    color: white;
+    
+  }
+  .notification-dropdown {
+    outline: transparent;
+    position: relative;
+    display: inline-block;
+  }
+  .notify{
+    font-weight: bold;
+     padding: 2px; 
+     text-align:center; 
+     background-color: red; 
+     height: 20px; 
+     width: 20px; 
+     border-radius: 50%;
+     position: absolute; 
+     top: -2px; 
+     right: 17px;
+     color: white;
+     border-radius: 50%;
+    font-size: 0.8em;
+  }
+    .authoptions .main-option-container div a:hover{
+        background-color: white;
+    }
+ 
+    .authoptions .main-option-container:hover{
+       background-color:rgba(241, 241, 241, 0.911);
+     } 
+.category-container:hover{
+   transform: scale(1.1);
+}
+.buyers{
+    border: 1px solid transparent;
+    padding: 10px; 
+    width:150px;
+    height:100px; 
+    overflow-y: auto;
+    overflow-x:hidden;
+    border-radius: 20px;
+    list-style: none; 
+    text-align: left;
+    word-wrap: break-word;
+   
+   }
+
+.error{
+    text-align: center;
+    margin-top: 50px;
+}
+.status{
+    text-align: center;
+    margin-top: 50px;
+}
+
+ 
+button{
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border: none;
+}
+
+input,
+textarea,
+img,
+video,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+ 
+}
+input:focus,
+textarea:focus,
+button:focus,
+select:focus,
+a:focus {
+  outline: none; 
+}
+
+
+body::-webkit-scrollbar-thumb{
+    width: 12px;
+    background-color:rgba(182, 182, 184, 0.4);
+}
+body::-webkit-scrollbar{
+     width: 12px;
+     height: 20px;
+     background-color: rgba(229, 229, 235, 0.795);
+}
+
+#commentbox{
+    border: transparent;
+    border-radius: 20px;
+    padding: 20px; 
+    resize: none;
+    margin-left: 40%;
+    min-width:30%;
+    height: 20%;
+    font-size: medium; 
+    font-style: normal;
+    overflow-y: auto;
+    overflow-x:hidden;
+}
+#information{
+    font-size: 1.5em;
+}
+
+.small-image:hover{
+    transform: scale(1.1);
+}
+
+
+.profile{
+    margin-left: 48%; 
+    font-size: 1.2em; 
+    color: black; 
+}
+.user{
+    border: 1px solid transparent;
+    height: 800px;
+    width: 600px;
+    background-color:transparent;
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size:1.5em;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#compyUser{
+    display: inline-flex;
+}
+#companyname{
+    text-decoration: none;
+    color: white;
+
+}
+#logout{
+   text-align: center;
+   color: black;
+   font-size: 3em;
+}
+.mainlist{
+    list-style: none;
+}
+
+#productinfo{
+    border: 1px solid transparent;
+    height: 50%;
+    width: 47%;
+    background-color: white;
+    margin-top: 2%;
+    font-size: 1.3em;
+ 
+}
+
+
+.cart{
+    margin-top: 10px;
+}
+
+
+   .message-container-sender{
+       float: left;
+       display: inline-flex;
+   }
+   .message-container-me{
+    float:right;
+    display: inline-flex;
+}
+   #textboxCompanies{
+    border: transparent;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
+     padding: 20px; 
+     resize: none;
+     background-color: white; 
+     height: 120px; 
+     font-size: medium; 
+     font-style: normal;
+     overflow-y: auto;
+     overflow-x:hidden;
+     width:  60vw;
+}
+
+
+
+.tabheader{
+    padding-left: 5vw;
+    font-size: 2em;
+    margin-right: 20%;
+}
+
+.compname{
+    font-weight: normal;
+    text-decoration: none;
+    float: left;
+}
+
+.message-button-cart{
+    border: none; 
+    font-size:1.5em;
+    margin-left: 10px;
+    color: #0067B6;
+     background-color: transparent; 
+     cursor: pointer;
+}
+.message-button-cart:hover{
+     color: gold;
+}
+.cartdeco{
+    border: none; 
+    height: 500px;
+    width:250px;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+    color:black ;
+    background-color:rgb(246, 247, 248);
+    text-decoration: none;
+    font-size:1.1em;
+    font-weight: bold;
+    float:left;
+    margin-left: 5vw;
+    margin-bottom: 50px;
+   
+}
+
+
+.mycart{
+    display: inline-flex; 
+}
+
+tr{
+    background-color: white;
+}
+.btnRemoveAction{
+    color: #0067B6;
+    margin-top: 10px;
+
+}
+#cartbody{
+    background-color: rgba(182, 182, 184, 0.4);
+}
+
+
+.product-container{
+    width: 100%; 
+    overflow:hidden;
+}
+
+#owner{
+    border: 1px solid transparent;
+    margin-left: 85%;
+    background-color:rgba(167, 144, 163, 0.4);
+    width: 150px;
+    height:50px;
+    margin-top:4px;
+    padding-left:10px;
+
+}
+.already{
+    color: #0067B6;
+    text-decoration: underline;
+}
+.terms{
+   text-decoration: none; 
+   margin-top: 5px;
+   color: #0067B6;
+}
+.customerService{
+    margin-left: 40%;
+    font-size: 3em;
+}
+.button{
+    height: 60px;
+    font-size: 1em;
+    cursor: pointer;
+}
+.product-price{
+    margin-left: 10px;
+    font-size: 1.3em;
+    color: #444;
+    font-weight: bold;
+}
+.product-det{
+    margin-top: 2px;
+    
+}
+.product-company{
+    font-size:0.8em;
+    height: 7px;
+    color: #0067B6;
+    text-decoration: none;
+    
+}
+
+  .cart-action:hover .buttonprod{
+    color:gold;
+}
+
+.product-title{
+    margin-top: 2px;
+    font-size: 1em;
+    margin-left: 10px;
+
+}
+/*----store-area-productdeco*/
+.store-image{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+ } 
+ 
+
+.company-prod{
+        margin-left: 10px;
+        margin-top: 5px;
+        height: 20px;
+        display: inline-flex;
+
+}
+h5{
+    margin-left: 30%;
+    font-size: 1.1em;
+}
+
+.notActive{
+    color: #0067B6;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+}
+#productholderinfo{
+    border: 1px solid black;
+}
+#comnts{
+margin-left: 20px;
+}
+#comntsbutton{
+    margin-left:200px;
+    height: 80px;
+    background-color: #0067B6;
+}
+#textcomnts{
+  padding: 4px;  
+}
+
+
+.cate-opt{
+margin-left: 10px;
+color: grey;
+text-decoration: none;
+}
+
+.catedown{  
+    display: none;
+    position: absolute;
+    min-width: 50px;
+    z-index: 1; 
+
+}
+.category:hover .dropdown{
+    display:block;
+}
+.logo-design{
+    margin-left: 6px;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 22px;
+    border-radius:50%;
+
+}
+
+.categorymaintop{
+    border:1px solid transparent;
+    height: 60px;
+    width: 100%;
+    background-color:  rgb(5, 2, 24); 
+    padding: 0;
+    color:rgb(229, 229, 235);
+    list-style: none;
+    display: inline-flex;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    overflow:wrap;
+
+}  
+
+@media only screen and (max-device-width: 599px) {   
+   .productImg{
+        width: 100%;
+        height: 250px;
+
+   }
+
+    .productdeco{
+        border: 1px solid transparent; 
+        width:50%;
+        padding:2px; 
+        background-color: white;
+        text-decoration: none;
+        overflow: hidden;
+        float:left; 
+        border-right-color: #f4f4f4;
+        border-bottom-color: #f4f4f4;
+    }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 992px) {   
+    .productImg{
+        width: 100%;
+        height: 210px;
+
+   }
+    .productdeco{
+        border: 1px solid transparent; 
+        width:33.3%;
+        padding:2px; 
+        background-color: white;
+        text-decoration: none;
+        overflow: hidden;
+        float:left; 
+        border-right-color: #f4f4f4;
+        border-bottom-color: #f4f4f4;
+    }
+}
+
+
+/* small screen smartphones ----- and mobile devices(potrait)*/
+@media only screen and (max-device-width : 991px){
+    /*left side top product*/
+    .top-product-left-side{
+        display: none;
+    }
+    /*search*/
+    #search{
+        margin-left:15%;
+        border-radius: 20px; 
+        height: 40px;
+        display: inline-flex;
+        margin-top: 20px;
+        padding-bottom:2px;
+        width:70%;
+    
+    }
+    #icon{
+        width:50px;
+        border: none;
+        background-color:gold;
+        cursor: pointer; 
+        font-size: 1em;
+        margin-left: -7px;
+        color: #004070;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .searchbarstatistics{
+        margin-left:20vw;
+        border-radius: 20px; 
+        height: 40px;
+        display: inline-flex;
+        margin-top: 20px;
+        padding-bottom:5px;
+        width:80%; 
+    }
+    .searchbar{
+        border: none;
+        padding-left:17px;
+        padding-right:17px;
+        width: 100%;
+        font-size: 1.1em;
+        color: black; 
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        
+    }
+    .searchbar::placeholder{
+        font-size: 0.8em;
+    }
+    
+    
+    /*company top*/
+    .company{
+        color:gold;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 10px;
+        font-size: 1.7em;
+        font-family:Arial, Helvetica, sans-serif;
+    
+    }
+    /*back top*/
+    #back2Top{
+        width: 60px;
+        line-height: 60px;
+        overflow: hidden;
+        z-index: 2;
+        display: none;
+        cursor: pointer;
+        -moz-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+        position: fixed;
+        border-radius: 50%;
+        bottom: 65px;
+        right: 0;
+        margin-right: 15px;
+        background-color:  rgb(246, 247, 248);
+        color: grey;
+        text-align: center;
+        font-size: 2.5em;
+        text-decoration: none;
+    }
+    #back2Top:hover {
+        background-color: rgb(246, 247, 248);
+        color: #0067B6;
+    }
+       /*whatsapp*/
+    .whatsapp{
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+        z-index: 2;
+        cursor: pointer;
+        -moz-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+        position: fixed;
+        border-radius: 50%;
+        bottom: 65px;
+        right: 0;
+        margin-right: 15px;
+        color: grey;
+        text-align: center;
+        font-size: 2.5em;
+        text-decoration: none;
+    }
+    .whatsapp img{
+        width: 60px;
+        height: 60px;
+    }
+      /*footer design*/
+      .authoptions-footer{
+        color: black;
+        bottom:0;
+        width:100%;
+        background-color:transparent; 
+        text-align: center;
+        font-size: 0.9em;
+     }
+
+       /*dropdown design*/
+       .authoptions .all-dropdown{
+        display: none;
+        margin-top: 2px;
+        padding: 5px;
+        border-radius: 2px;
+        width: 100%;
+        z-index: 1;
+       }
+       .authoptions .all-dropdown a{
+            width: 100%; 
+            color:black;
+            padding-top:15px;
+            margin-left: 15px;
+            padding-left: 15px;
+            display: block;
+            height: 50px;
+            font-size: 1.7em;    
+        } 
+       /*img placeholder*/
+         .signup-placeholder img{
+          height: 200px;
+          width: 200px;
+          border-radius:50%;
+         }
+         /* notifications */
+         .notification-details{
+           text-decoration:none;
+           color: black; 
+           height: 50px; 
+           border-top: 1px solid rgb(225, 225, 226);
+        }
+        .notification-heading{
+            padding: 10px;
+        } 
+        .notification-info{
+            margin-left: 15px;
+        }
+        /*---response-page----*/
+        .back-to-products{
+            height: 40px;
+            width: 260px;
+            background-color: #0067B6;
+            color: white;
+            font-size: 0.9em;
+            font-weight: normal;
+            border-radius: 10px;
+            border: none;
+            margin-top: 20px;
+            outline-color: transparent;
+        
+        }
+        .response-text{
+            display: inline-block;
+            width: 100vw;
+            margin: 0 auto;
+            font-size: 1.5em;
+            text-align: center;
+            padding: 42px;
+            border-radius: 3px;
+            border: #f5e9d4 1px solid;
+            font-family: arial;
+            line-height: 34px;
+        }
+       /*----text-box-area----*/
+       .textbox-area .choose-image img{
+           height: 100px;
+           width:  100px;
+       }
+        /*---admin-design----*/
+      .management-heading{
+            text-align:center; 
+            color: gold; 
+            font-weight: normal;
+             font-size: 1em;
+            }  
+     .admin-top-heading{
+        text-align:center; 
+        color: #0067B6; 
+        font-size: 1.5em;
+    }
+       .select-senders{
+        height: 50px; 
+        width: 100px; 
+        border: none; 
+        background-color:transparent;
+        font-size: 1em;
+    }
+       .textbox-area-admin{
+        display: inline-flex;
+         margin-left:10vw;
+         margin-top: 10px;
+    }
+        /*---management------*/
+        .management-top{
+            height: 150px;
+            background-color: #0067B6;
+            margin:0; 
+            border:1px solid transparent;
+            width: 100%;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left:0;
+            right: 0;
+        }
+        .management-options{
+            border:1px solid transparent;
+            height: 200px;
+            background-color: rgb(5, 2, 24);
+            width: 100%; 
+            margin:0; 
+        }
+        .options-admin{
+            font-size: 1em;
+            cursor: pointer;
+            border: none;
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            display: inline-flex;
+            margin-left: 20px;
+        }
+        #iframeDisplay{
+            border: none;
+            background-color: transparent;
+            margin-top: 150px;
+        
+        }
+
+      /*----cart-action----*/
+      .cart-action{
+        margin-top: 10px;
+        width: 100%;
+        padding-bottom: 10px;
+        display: inline-flex; 
+    }
+     /*----product---*/
+
+     .product-quantity{
+        background-color: rgba(253, 253, 253, 0.527);
+        border:none;
+        border-radius: 5px;
+        padding-left: 3px; 
+        font-size:1em; 
+        width:35%;
+        margin-left: 5%; 
+        height:30px;
+    }
+    .buttonprod{
+        background-color: #0067B6;
+        color: white;
+        cursor: pointer;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        width:40%;
+        height:30px;
+        border-radius: 20px;
+        font-size: 0.7em;
+        margin-left: 15%; 
+        text-align: center;
+      } 
+
+      
+    /*---no-products-----*/
+    .no-products{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 0.8em;
+        color: grey;
+    } 
+    /*----main-home-body---*/
+    .main{
+        background-color: rgb(246, 247, 248);
+        overflow-x: auto;
+    }  
+    /*----update-for-store-customer---*/
+    .image-update-container{
+        height:200px;
+        border-radius:50%;
+        width:200px;
+    }
+    /*----store---information-----*/
+       #contact{
+        text-align: center;
+       font-size: 1.5em;
+       margin-top: 15px;
+   }
+   .info-headings{
+       color:#0067B6;
+       font-size: 2em;
+      
+   }
+    /*----auto slider top product----*/
+        
+        .top-product-welcome{
+            font-size: 2em;
+            color: #0067B6;
+            font-weight: bold;
+            font-family:'Times New Roman', Times, serif;
+            animation: captionText .5s ease;
+        }
+
+        .top-product-name{
+            font-size: 1em;
+            color:rgb(5, 2, 24);  
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            margin-top: 2px;
+            font-weight: bold;
+            animation: captionText .5s ease;
+        }
+        @keyframes captionText{
+            0%{
+                transform: scale(0.70);
+
+            }
+            100%{
+                transform: scale(1);
+            }
+
+        }
+        @keyframes top-product{
+            0%{
+                transform: scale(0.95);
+
+            }
+            100%{
+            transform: scale(1);
+            }
+
+        }
+        .section-heading{
+            margin-left: 10px;
+            margin-top:20px; 
+            font-size: 1.1em;
+            color: rgb(5, 2, 24);
+            font-weight: normal;
+        } 
+        .top-store-top-product{
+           display: none;
+        }
+        .top-region{
+           display: none;
+        }
+        .top-store-region-options{
+        display: none;
+        }   
+         .top-section-store-region{
+            display: none;
+         }   
+        .top-section-container{
+            width: 100vw;
+            margin-top: 130px;
+    
+         }    
+  .top-product-details-slider{
+        display: block;
+         margin-left:10px;
+         margin-top: 5px;
+         position: absolute; 
+     }
+    .slider{
+        height: 300px;
+        overflow: hidden;
+       
+      }
+      .top-container-top-product{
+        width: 100vw;
+        height: 300px;
+        overflow: hidden;
+      }
+      .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+      }
+      
+      .slides input{
+        display: none;
+      }
+      
+      .slide{
+        width: 20%;
+        transition: 2s;
+      }
+      
+      .slide img{
+        width: 100vw;
+        height: 300px;
+      }
+      
+      /*css for manual slide navigation*/
+      
+      .navigation-manual{
+        position: absolute;
+        width: 100vw;
+        height: 15px;
+        outline-color: none;
+        margin-top: -270px;
+        display: flex;
+        padding: 50px;
+        justify-content: center;
+      }
+      
+      .manual-btn{
+        border: 1px solid rgba(182, 182, 184, 0.4);
+        width: 40px;
+        height: 5px;
+        border-radius: 2px;
+        cursor: pointer;
+        outline: none;
+        outline-color: none;
+        transition: 1s;
+      }
+      
+      .manual-btn:not(:last-child){
+        margin-right: 40px;
+      }
+      
+      .manual-btn:hover{
+        background: #004070;
+      }
+      
+      #radio1:checked ~ .first{
+        margin-left: 0;
+      }
+      
+      #radio2:checked ~ .first{
+        margin-left: -20%;
+      }
+      
+      #radio3:checked ~ .first{
+        margin-left: -40%;
+      }
+      
+      /*css for automatic navigation*/
+      
+      .navigation-auto{
+        position:absolute;
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        margin-top: 230px;
+        padding: 50px;
+      }
+      
+      .navigation-auto div{
+        border: 1px solid rgba(182, 182, 184, 0.4);
+        width: 40px;
+        height: 5px;
+        border-radius: 2px;
+        transition: 1s;
+      }
+      
+      .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+      }
+      
+      #radio1:checked ~ .navigation-auto .auto-btn1{
+        background: #004070;
+      }
+      
+      #radio2:checked ~ .navigation-auto .auto-btn2{
+        background: #004070;
+      }
+      
+      #radio3:checked ~ .navigation-auto .auto-btn3{
+        background:#004070;
+      }
+
+        
+         .notification-message{
+            text-align: center;
+            font-size: 2em; 
+            color: gold;
+            background-color: white;
+            width: 580px;
+            padding: 10px;
+            margin: auto;
+        
+        }
+          /*sell product*/
+         #sellimg{
+            margin-left: 10vw;
+            color: black;
+         }        
+        .productback-sell{
+            border: 1px solid transparent;
+            margin-top: 7%;
+        }
+      
+         .addbutton{
+            border: 2px solid #0067B6;
+            height: 50px;
+            color:#0067B6;
+            width: 210px;
+            padding:10px;
+            margin-top: 30px;
+            border-radius: 10px;
+            text-align: center;
+            background-color: transparent;
+            font-size: 1.3em;
+            cursor: pointer;
+         }
+         .frame-video{
+          width: 300px;
+          height: 200px;
+          border-radius: 0px;
+          background-color: gainsboro;
+        
+         }
+         .frame-display{
+            display: block;
+           } 
+        .frame{
+            border: none;
+            width: 600px; 
+            height: 200px;
+            overflow: hidden;
+            background-color: white;
+            min-width: 200px;
+            min-height: 200px;   
+        } 
+        #sellbutton{
+            border: 2px solid #0067B6;
+            width: 200px;
+            height: 70px;
+            margin-top: 30px;
+            margin-left: 70%;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1em; 
+            background-color: transparent;
+            color: #0067B6;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        
+        }
+         #prodtitle{
+            color: #1a73e8;
+            text-align: center;
+            font-size: 4em;
+        }
+        .prodescr{ 
+            border: 0.5px solid rgb(219, 219, 219);
+            height: 50px;
+            width: 50%;
+            padding-left: 10px;
+            font-size: 1em;
+           
+        }
+        
+        #prodinfo{
+            margin-top: 5%;
+            font-size: 1.5em;
+            margin-left: 10%;
+            color: black;
+        }
+        #description{
+            border: 0.5px solid rgb(219, 219, 219);
+            height: 200px;
+            width: 80%;
+            padding: 10px;
+            resize: none;
+            font-size: 1em;
+         
+        }
+        
+
+         /*----tables-----*/
+        .all-tbls{
+            font-size: 1em;
+            margin-top: 140px;
+        }
+        .all-tbls  th{
+            font-weight: normal;
+            background-color: gold;
+            color: #0067B6;
+        }
+        .tbl-small-image{
+            height:20px; 
+            width:20px; 
+            border-radius:50%;
+
+        }
+        .all-tbls-store{
+            font-size: 0.5em;
+            margin-top: 130px;
+        }
+        .all-tbls-store  th{
+            font-weight: normal;
+            background-color: gold;
+            color: #0067B6;
+        }
+        .tbl-small-image-store{
+            height:20px; 
+            width:20px; 
+            border-radius:50%;
+
+        }
+     /*product--details--*/
+     .product-all-container{
+         padding-bottom: 200px;
+     }
+     .products-heading-section{
+        font-size: 2em;
+        font-weight: normal;
+        text-align: center;
+    }
+     .add-to-cart{
+        background-color: gold;
+        border: none;
+        color: black;
+        cursor: pointer;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 1.6em;
+        width: 100%;
+        padding-top:20px;
+        text-align: center;
+      }
+      .choose-color-quantity-cart{
+        background-color: rgba(253, 253, 253, 0.527);
+        width:40%;
+        border: none;
+        margin-left:30%;
+        border-radius: 5px;
+        padding-left: 3px; 
+        margin-left: 5px;
+        font-size:1.6em; 
+    }
+      .add-to-wishlist{
+        background-color:#0067B6;
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 1.6em;
+        padding: 5px;
+        width: 100%;
+        text-align: center; 
+      }
+      .product-quantity-product{
+        border:none;
+        width: 20%;
+        border-radius: 5px;
+        text-align: center;
+        padding: 35px;
+        font-size:2.7em; 
+    }
+     .container-product-img-info{
+        display: block;
+        margin-top: 40px;
+     }
+     .cart-action-product{
+        height: 110px;
+        width: 100%; 
+        bottom: 0;
+        position: fixed;
+        display:inline-flex;
+        background-color: white;
+        border: none;
+       }
+       .choose-color-quantity{
+        background-color: rgba(253, 253, 253, 0.527);
+        border: 0.2px solid grey;
+        height: 110px;
+        width:300px;
+        border-radius: 5px;
+        padding: 20px;
+        margin-left: 125px;
+        font-size:1.7em; 
+    
+    
+    }
+    .color-wishlist-container{
+        display: inline-flex;
+    } 
+     .proddet{
+        margin-top: 20px;
+        margin-left:20px; 
+        width: 50%;
+        font-size: 1.4em;
+    }
+    .proddet-comp{
+        text-align: center;
+    }
+    .company-name-product{
+        color: black; 
+        font-size:1.5em; 
+        font-weight: bold; 
+        color: #0067B6;
+     }
+    .store-image-product{
+        height:120px;
+        width:120px; 
+        border-radius: 50%;
+     }
+     .product-name{
+        text-align: center;
+        font-size: 5em; 
+        font-variant-caps: all-petite-caps;
+        font-weight:bold; 
+        font-family: 'Times New Roman', Times, serif;
+       }
+    .small-images{
+        width:160px; 
+        height: 160px;
+        cursor: pointer;
+        transition: transform ease-in-out 0.3s;
+    }
+    .small-video{
+    width:160px; 
+    height: 160px;
+    cursor: pointer;
+    }
+    .small-images:hover {
+        transform: scale(1.2);
+      }
+.comment{ 
+    border: 1px solid transparent;
+    padding: 20px; 
+    margin: auto;
+    width:  900px;
+    height: 40vh;
+    overflow-y: auto;
+    overflow-x:hidden;
+    border-radius: 20px;
+    text-align: left;
+    word-wrap: break-word;
+    background-color:white;
+   
+}
+.comment::-webkit-scrollbar{
+    display: none;
+}
+    .textbox-area-product{
+        display: inline-flex;
+         margin-left:13vw;
+    }
+    .product-reviews-textbox-container{
+        display: block;
+        width:  100vw;
+        margin: auto;
+     }
+    .review-title{
+        margin-left: 25vw; 
+        font-size: 3em;
+         color: #0067B6;
+    }
+    .reviews-container{
+        width: 100vw;
+        
+    }
+    .product-button-to-store{
+        cursor: pointer;
+         background-color: transparent;
+          border: none;
+          text-align: center;
+          font-weight: bold;
+           color: black;
+           font-size: 2em; 
+           outline-color: none; 
+    }
+    .namedsgn{
+        font-size: 1.2em;
+        margin-bottom: 15px;
+         
+    }
+    .product-main-image{
+        width:100vw;
+         height: 700px;
+     }
+    /*---profiles-----*/
+    .details{
+        font-size: 2em;
+        color:#0067B6;
+        margin-top: 50px;
+        margin-left: 20px;
+      }
+    .button-for-profiles{
+        border: none;
+        height: 50px;
+        font-size: 1.5em;
+        margin-left: 4vw;
+        margin-top: 50px;
+        padding:10px;
+        margin-bottom: 20px;
+        background-color: #0067B6;
+        border-radius: 5px;
+        outline-color: transparent; 
+        cursor: pointer;
+        color: white;
+        font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+   }
+/*----messaging elements----*/ 
+.no-messages{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2em;
+    color: grey;
+} 
+
+    .textbox-area{
+        display: inline-flex;
+         position: fixed;
+         padding-top: 30px;
+         bottom: 0;
+         padding-left: 10vw;
+         height: 9%;
+         width: 100vw;
+         background-color: white;
+    }
+
+    .textbox-area-help-review{
+        display: inline-flex;
+        position: fixed;
+        padding-top: 30px;
+        bottom: 0;
+        padding-left: 19vw;
+        height: 10%;
+        width: 100vw;
+        background-color: white;
+
+    }
+    .textbox{
+        border: transparent;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 20px; 
+        resize: none;
+        background-color: rgb(250, 250, 255); 
+        height: 100px; 
+        font-size: 1.5em;
+        font-style: normal;
+        overflow-y: auto;
+        overflow-x:hidden;
+        width: 600px;
+       }
+       .textbox::placeholder{
+           font-size: 1.2em;
+           padding: 15px;
+       }
+      .send-button{
+          background-color:#0067B6;
+           height: 100px;
+           width: 120px;
+           border-bottom-right-radius: 10px; 
+           border-top-right-radius: 10px; 
+           color: white;
+           font-size: 2em;
+           text-align: center;
+           cursor: pointer;
+      }
+      .choose-image{
+          cursor: pointer;
+          border: none;
+          margin: auto;
+          height: 100px; 
+          width: 100px; 
+          background-size: 100px;
+          background-repeat: no-repeat;
+          background-position: center;
+      }
+      .msg-com-image{
+          background-color: transparent;
+          border: 1px solid transparent;
+          width: 500px;
+          margin-left:100%;
+          margin-top:20px;
+          border-radius: 20px;
+          color: black;
+          padding: 20px;
+          font-weight: normal;
+      }
+      .msg-images{
+          width: 300px;
+          height: 300px;
+          margin-left: 90px;
+      }
+      .body-background-with-design-messages{
+        background-color: rgb(243, 243, 243);
+        overflow: hidden;
+   }
+      .msg-com{
+          background-color: rgb(226, 226, 226);
+          border: 1px solid transparent;
+          width: 500px;
+          margin-top:20px;
+          border-top-left-radius: 40px;
+          border-bottom-right-radius: 40px;
+          border-top-right-radius: 40px;
+          color: black;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 10px;
+          font-weight: normal;
+         }
+
+         .msg-com-img{
+            border: 1px solid transparent;
+            width: 500px;
+            margin-top:20px;
+            border-radius: 40px;
+            color: black;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            font-weight: normal;
+           }
+         .message-seen-by-customer{
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            float:right;
+            margin-left: 10px;
+            margin-top: 50px;
+        }
+        .message-seen-by-owner{
+           height: 30px;
+           width: 30px;
+           border-radius: 50%;
+           float: left;
+           margin-left: 10px;
+           margin-top: 50px;
+        }
+         .msg-com-me-image{
+          background-color:transparent;
+          border: 1px solid transparent;
+          width: 500px;
+          margin-top: 20px;
+          border-radius: 20px;
+          color: black;
+          padding: 20px;
+          font-weight: normal;
+         }
+         .msg-com-me{
+          background-color: #0067B6;
+          border: 1px solid transparent;
+          width: 500px;
+          margin-top: 20px;
+          border-top-left-radius: 40px;
+          border-bottom-left-radius: 40px;
+          border-top-right-radius: 40px;
+          color: white;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 10px;
+          font-weight: normal;
+         } 
+         .msg-com-me-img{
+            border: 1px solid transparent;
+            width: 500px;
+            margin-top: 20px;
+            border-radius: 40px;
+            color: black;
+            padding-bottom: 10px;
+            font-weight: normal;
+           } 
+        .date-message{
+            font-size:1em;
+            color:grey;
+            text-align:center;
+           }
+           .date-message-me{
+            font-size:0.8em;
+            color:rgb(210, 226, 255);
+            text-align:center;
+           }
+        .date-message-img-me{
+            font-size:1em;
+            color:grey;
+            text-align:center;
+           }
+           .date-message-img-someone{
+            font-size:1em;
+            color:grey;
+            text-align:center;
+           }
+                  
+      .sendby-me{
+          border: 1px solid transparent; 
+          border-radius:90px;
+          font-size:1.5em;
+          height: 70px;
+          width: 70px;
+          color: rgb(210, 226, 255);
+          margin-top: 20px;
+      }
+      .sendby-someone{
+          border: 1px solid transparent; 
+          border-radius: 90px;
+          font-size:1.5em;
+          height: 70px;
+          width: 70px;
+          margin-top: 20px; 
+          color:rgb(246, 247, 248);
+       
+      }
+      .design{
+        border: none;
+        margin: auto;
+        width:  98vw;
+        height: 80%;
+        margin-top: 20px;
+        overflow-y: scroll;
+        overflow-x:hidden;
+        padding-bottom: 180px;
+        border-radius: 10px;
+        text-align: left;
+        word-wrap: break-word;
+        background-color: white;
+       
+       }
+      .design::-webkit-scrollbar{
+          display: none;
+      }
+    /*---about us---*/
+    .ab-images{
+        width: 90%;
+        margin-left: 5%;
+        height: 40vh;
+        border-radius: 10px;
+    }
+    .social-icons li img {
+        width:70px;
+        height:70px;
+        margin-right: 20px;
+      }
+      .heading{
+        font-size: 2em;
+        margin-left: 10px;
+      }
+      .heading-mission{
+        font-size: 2em;
+        margin-left: 10px;
+      }
+      .sub-heading{
+        font-size: 1.5em;
+        margin-left: 10px;
+      }
+      .my-info{      
+        margin-left: 10px;
+      }
+      
+      .all-info{
+        list-style: none;
+        margin-left: 15px;
+        margin-top: 20px;  
+        font-size: 1.5em;
+      
+      }
+            /*---my profile ---*/   
+            .myprofile-profile{
+                text-align: center; 
+                color: #1a73e8;
+                font-size: 2.5em;  
+              }    
+           
+    .username-profile{
+        text-align: center; 
+        color: rgb(5, 2, 24); 
+        font-size: 4em;
+     }
+
+     .profile-image{
+         height:200px; 
+         border-radius:50%;
+          width:200px;
+          margin-left: 10px;
+     } 
+   
+     .profile-background{
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 100px; 
+        background-color: white;
+        border: 1px solid transparent;
+        width: 800px; 
+        padding: 20px;
+        border-radius: 10px;
+         }
+  /*----store side design---*/
+        .buttonprod-mystore-update{
+            background-color: #0067B6;
+            color: white;
+            cursor: pointer;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            width:50%;
+            height:30px;
+            border-radius: 5px;
+            font-size: 1em;
+            text-align: center;
+        }
+        .mystore-name{
+            font-weight: bold;
+        }
+        .mystore-orders{
+            font-weight: bold;
+        }
+        .buttonprod-mystore-delete{
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            width:50%;
+            height:30px;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-left: 5px; 
+            text-align: center;
+        }
+         .top-left-button-custom{
+            border: 2px solid white;
+            width: 70px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 0.7em;
+            color: white;
+            margin-top: 5px;
+            margin-left: 5px;
+            cursor: pointer;
+            background-color:transparent;
+        }
+            .top-right-button-custom{
+            border: 2px solid white;
+            width: 90px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 0.7em;
+            color: white;
+            float: right;
+            margin-top: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+            background-color: transparent;
+        
+        }
+       .top-store{  
+                    height: 220px;
+                    background-color: #0067B6;
+                    opacity: 0.9;
+                    margin:0; 
+                    width: 100%;
+                    overflow: hidden;
+                    top: 0;
+                    left:0;
+                    right: 0;
+                }
+          .top-store-cover{
+                    height: 220px;
+                    margin:0; 
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    overflow: hidden;
+                    top: 0;
+                    left:0;
+                    right: 0;
+                }      
+        .profile-image-store{
+            height:90px;
+            border-radius:50%;
+             width:90px;
+        }   
+      /*----chat design-----*/  
+           .chats-heading{
+            float: left;
+            font-weight: normal;
+            font-size: 2em;
+            margin-left: 10px;
+            margin-top: 20px;
+           }
+           .chats-heading-messaging{
+            font-size:2em;
+            font-weight: normal;
+            margin-top:50px;
+            text-align: center;
+           }
+           .chats-heading-help-review{
+            font-size:2em;
+            font-weight: normal;
+            margin-top: 20px;
+            margin-left: 15vw;
+           }
+              .chats-container{
+                text-align: left; 
+                cursor: pointer; 
+                border:none;
+                background-color: transparent;
+                height: 100px; 
+                width: 100%; 
+                font-size: 1.5em;
+            
+            }
+         .chats-profile-image{
+            height:70px; 
+            width:70px;  
+            border-radius:50%; 
+            margin-bottom: 5px;
+                }
+            
+                .chats-sender{
+                    margin-left: 20px;
+                    color:black;
+                }
+      /*----top----*/
+     .top{
+                height: 140px;
+                background-color: #0067B6;
+                margin:0; 
+                border:1px solid transparent;
+                width: 100%;
+                overflow: hidden;
+                position: fixed;
+                top: 0;
+                left:0;
+                right: 0;
+            }
+            .top-relative{
+                height: 62px;
+                background-color: transparent;
+                margin:0; 
+                border: none;
+                border:1px solid transparent;
+                width: 100%;
+                overflow: hidden;
+                position: relative;
+                top: 0;
+                left:0;
+                right: 0;
+                z-index: 10;
+            }
+            .txt-heading{
+                text-align: center;
+                font-size:2em;
+                color:  white;
+                text-decoration: none;
+                font-weight: normal;
+                margin-top: 10px; 
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                
+            }
+            .txt-heading-store{
+                text-align: center;
+                font-size:1em;
+                color:  white;
+                text-decoration: none;
+                font-weight: normal;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+                
+            }
+            .no-records{
+                margin-top: 15vh;
+                text-align: center;
+                font-size: 2em;
+                color: grey;
+            }
+            
+            .emptyCart{
+                border: 2px solid white;
+                background-color:transparent;
+                 width: 200px;
+                 height: 50px;
+                 color: white;
+                 border-radius: 5px; 
+                 font-size: 1.3em;
+                 float: right;
+                 margin-top: 10px;
+                 margin-right: 5px;
+                 cursor: pointer;
+            } 
+     
+    .top-left-button{
+        border: 2px solid #0067B6;
+        width: 125px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 1.3em;
+        color: #0067B6;
+        margin-top: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .top-right-button{
+        border: 2px solid #0067B6;
+        width: 125px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 1.3em;
+        float: right;
+        margin-top: 5px;
+        margin-right: 5px;
+        color: #0067B6;
+        cursor: pointer;
+        background-color: transparent;
+    
+    }
+    .top-left-button-with-background{
+        border: 2px solid white;
+        width: 125px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 1.3em;
+        color: white;
+        margin-top: 5px;
+        margin-left: 5px;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    
+    .top-right-button-with-background{
+        border: 2px solid white;
+        width: 125px;
+        height: 50px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size: 1.3em;
+        float: right;
+        margin-top: 5px;
+        margin-right: 5px;
+        color: white;
+        cursor: pointer;
+        background-color: transparent;
+    
+    }
+    .anchorindex:hover{
+        color: rgb(5, 2, 24);
+    }
+
+  .authoptions  .anchorindex{
+        text-decoration: none;
+        margin-top: 5px;
+        margin-left: auto;
+        font-size: 1em;
+        background-color: transparent;
+        display: inline-block;
+    }  
+ .maintop  .anchorindex{
+        text-decoration: none;
+        margin-top: 5px;
+        margin: auto;
+        color:rgb(90, 90, 90);
+        font-size: 1.2em;
+        background-color: transparent;
+        display: inline-block;
+    }  
+  .maintop  .anchorindex-names{
+         display: none;
+    }
+    .maintop{
+        border-top:0.5px solid rgb(219, 219, 219);
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding:5px;
+        position: fixed;
+        list-style: none;
+        display: inline-flex;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+    } 
+.maintop-placeholder  .anchorindex{
+        text-decoration: none;
+        margin: auto;        
+        margin-bottom: 5px;
+        color:rgb(90, 90, 90);
+        font-size: 1.2em;
+        background-color: transparent;
+        display: inline-block;
+    } 
+    .note-anchorindex-outer{
+        display: none;
+    } 
+  .maintop-placeholder  .anchorindex-names{
+         display: none;
+    }
+    .maintop-placeholder{
+        border-top:0.5px solid rgb(219, 219, 219);
+        height: 50px;
+        width: 100%;
+        background-color: white;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        padding:5px;
+        position: fixed;
+        list-style: none;
+        display: inline-flex;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 1em;
+        text-decoration: none;
+    } 
+    .main-options{
+        font-size: 1.5em;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+ 
+    .profile-picture{
+        height: 100px;
+        width: 100px;
+        margin-left: 30px;
+        border-radius: 50%;
+    }
+    .enclose{
+        background-color: #0067B6;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left:0;
+        right: 0;
+        height: 115px;
+        padding-bottom: 20px;
+    }
+  #main-option-container-with-dropper{
+      display: none;
+     }
+        .authoptions{
+            border:none;
+            background-color:rgba(65, 65, 65,0.4);
+            position: absolute;
+            list-style: none;
+            top: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 10;
+            display: none;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 0.8em;
+            text-decoration: none;
+             overflow-y: scroll;
+        }
+        .authoptions-inner-container{
+            width:  80vw;
+            height: 240vh;
+            padding-top: 20px;
+            background-color: white;
+  
+         }
+        .top-dropper-container{
+            height: 30px;
+            left: 0;
+            top: 0;
+            position: fixed;
+            z-index: 1;
+            list-style: none;
+            display: inline-flex;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            text-decoration: none; 
+        }
+        .top-dropper-container-all{
+            height: 30px;
+            top: 0;
+            list-style: none;
+            display: inline-flex;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            text-decoration: none;     
+        }
+        .top-dropper-main-options{
+            font-size: 1.7em;
+            margin-left: 10px; 
+            text-align: center;
+            margin-bottom: 40px;
+            color: white; 
+            cursor: pointer;
+            float:left;
+            text-decoration: none;
+            cursor: pointer; 
+        }
+
+        .authoptions-remover{
+            float:right;
+            font-size: 5em;
+            margin-right: 20px;
+            margin-top: 20px;
+            color:white;
+            font-weight: lighter;
+            text-align: center;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+
+            
+        }
+         .authoptions::-webkit-scrollbar{
+            display:none;
+        }  
+
+ .authoptions  .main-option-container{
+            padding: 30px;
+        }
+ .maintop  div{
+            margin: auto;
+        }
+.maintop-placeholder  div{
+            margin: auto;
+        }     
+.main-option-container .main-options{
+            width: 100%; 
+           color: black;
+           padding-top:10px;
+           display: block;
+           height: 40px;
+           font-size: 1.5em;
+        }          
+        .authoptions hr{
+            color: white;
+            margin: auto;
+            width: 90%;
+        } 
+
+    /*---auth forms--*/
+    .select-photo-label{
+        font-size: 1em;
+        font-weight: normal;
+    }
+    .signup-placeholder{
+        cursor: pointer;
+         height: 200px; 
+         width: 200px; 
+         border-radius: 50%; 
+         background-size: 200px; 
+         background-repeat: no-repeat; 
+         background-position: center;
+        }
+    .invalid{
+        color:red;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 2em;
+        background-color: white;
+        width: 580px;
+        margin: auto;
+        padding: 10px;
+
+    }
+    .button-for-forms{
+        border: 2px solid #0067B6;
+        height: 50px;
+        font-size: 1.2em;
+        width: 100%;
+        margin-top: 20px;
+        background-color: transparent;
+         border-radius: 25px;
+         font-weight: bold;
+         outline-color: transparent; 
+         cursor: pointer;
+         color: #0067B6;
+         font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+    #store{
+        border:none;
+        height: 50%;
+        width: 600px;
+        border-radius: 10px;
+        margin:  auto; 
+        background-color:white;
+        margin-top: 5%;
+        margin-bottom: 10%; 
+        font-size: 1.5em;
+        color: #555; 
+    }
+    #register{
+        border: none;
+        height: 50%;
+        width: 600px;
+        border-radius: 10px;  
+        margin: auto;
+        background-color:white;
+        margin-top: 5%;
+        margin-bottom: 10%; 
+        font-size: 1.5em;
+        color: #555; 
+    }
+    .form-top{
+            height: 80px;
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #1a73e8;
+            text-align: center;
+            padding: 10px;
+    }
+    .form-name{
+      font-size: 1.7em; 
+      margin: auto;
+      font-weight: bold;
+      color:white;
+    }
+    .form-body{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .body-background-with-design{
+        background-color: rgb(243, 243, 243);
+
+   }
+    .login{
+        border: none;
+        height: 950px;
+        width: 660px;
+        background-color:white;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 50px;
+        font-size:1.5em;
+        color:#555; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        border-radius: 10px;
+    
+    }
+    .form-have-account{
+        margin-top: 60px;
+        font-size: 1.2em;
+
+    }
+
+    .form-input{
+     height: 100%;
+     width: 100%;
+     border: none;
+     padding-top: 50px;
+     font-size: 1em;
+     background-color: transparent;
+    
+    }
+    .form{
+        width: 100%;
+        position: relative;
+        height: 100px;
+        margin-bottom: 80px;
+        overflow: hidden;
+
+    }
+    .form label{
+        position: absolute;
+        bottom: 0px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        border-bottom: 1px solid grey;
+
+    }
+    .form label::after{
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        border-bottom: 1px solid #0067B6;
+        transform: translate(-100%);
+        transition: all 0.3s ease;
+    }
+     .content-name{
+         position: absolute; 
+         bottom: 5px;
+         left:0px;
+         transition: all 0.3s ease;
+     }
+  
+    #pass-status{
+        position: absolute;
+        float: right;
+        margin-left: -30px;
+        margin-top: 70px;
+    }
+    #password-field{
+        border: none; 
+       width: 100%;
+       height: 100%;
+       font-size: 1em;
+       padding-top: 50px;
+       background-color: transparent;
+       
+    }  
+     .form input:focus + .label-name .content-name, .form input:valid + .label-name .content-name{
+         transform: translateY(-170%);
+         font-size: 0.9em;
+         color: #0067B6;
+     }
+     .form input:focus + .label-name::after , .form input:valid + .label-name::after{
+        transform:translateX(0%);
+     } 
+    /*---top product---*/
+    .top-product-details{
+        display: block;
+         margin-left:auto;
+     }
+     
+    .products-main-page{
+        margin-top: 130px;
+    }
+    .products-main-page-allproducts{
+        margin-top: 10px;
+    } 
+    .home-container{
+        padding-bottom: 100vh;
+    }
+    .products{
+        margin-top: 10px;
+        margin-bottom: 10vh;
+    }
+  
+    /*---categories----*/
+    .ctgry{
+        font-size:1em;
+        background-color: transparent;
+        border: none;  
+        outline-color: transparent;
+        width:18vw;
+        margin-top: 10px;
+        color: #0067B6;
+    }
+    #ctgry-not-logged{
+        font-size:1em;
+        margin-top: 5px;
+        background-color: transparent;
+        border: none;  
+        outline-color: transparent;
+        width:18vw;
+        border: none;
+        color:white;
+    }
+    .top-category{
+        width: 100vw;
+       }
+    .top-category-outer{
+        width: 100vw; 
+    }    
+    .top-container-category{
+        width: 95vw;
+        padding-bottom: 15px;
+        margin: auto;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .main-category-names{
+        text-align:center;
+        display: inline-block;
+        color:rgb(90, 90, 90);
+         font-size:0.9em;
+    }
+    .category-container{
+        margin-top: 20px;
+         margin-left: 1.9vw;
+        display: inline-flex;
+        transition: linear 500ms;
+    }
+        .main-category{
+            border: 3px solid white; 
+            background-color: white;
+            height:16vw;
+            width:16vw;
+            border-radius: 5px; 
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 16vw;
+            transition: transform 2s;
+            font-weight: lighter;
+            margin-left: auto;
+           
+        }
+ 
+/*----productdeco---store--name--*/
+    .store-name-productdeco{
+        font-weight:normal;
+        margin-left: 5px;
+        margin-top: 4px;
+        color:grey;
+     
+     }     
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px){
+    .productImg{
+        width: 100%;
+        height: 224px;
+
+   }
+    .productdeco{
+        border: 1px solid transparent; 
+        width:20%;
+        padding:2px; 
+        background-color: white;
+        text-decoration: none;
+        overflow: hidden;
+        float:left; 
+        border-right-color: #f4f4f4;
+        border-bottom-color: #f4f4f4;
+    }
+
+}
+
+/* Desktops and laptops ----------- and large screens */
+@media only screen and (min-width : 20px) and (min-device-width: 992px){
+    
+    /* top product and stores */
+    .store-name-top-section-container{
+        color:#004070;
+        font-weight: bold;
+        font-size: 0.8em;
+    }
+    .top-store-image{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+    .top-store-region-options{
+        width: 120px;
+        height: 110px;
+        margin-top: 25px;
+        padding: 10px;
+        margin-left: 20px;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        transition: linear 500ms;
+        background-color: rgb(243, 243, 243);
+        text-align: center;
+        }
+         .top-store-region-options:hover{
+             transform: scale(1.1);
+             background-color: gold;
+         }
+         .top-section-store{
+            margin-left:30px;
+         }
+    .top-product{
+        width: 190px;
+        height: 180px;
+        margin-top: 25px;
+        margin-left: 40px;
+        transition: linear 500ms;
+    }
+    .topProduct-image{
+        width: 190px;
+        height: 180px;
+        border-radius: 5px;
+        
+    }
+    .top-product:hover{
+        transform: scale(1.1);
+    }
+      /*search*/
+      #search{
+        margin-left:25%;
+        height: 40px;
+        display: inline-flex;
+        margin-top:10px;
+        padding-bottom:2px;
+        width:50vw;
+    }
+    #icon{
+        width:50px;
+        border: none;
+        background-color: gold;
+        cursor: pointer; 
+        font-size: 1.3em;
+        margin-left: -7px;
+        color: #004070;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .searchbarstatistics{
+        margin-left:20vw;
+        border-radius: 20px; 
+        height: 40px;
+        display: inline-flex;
+        margin-top: 20px;
+        padding-bottom:5px;
+        width:80%; 
+    }
+    .searchbar{
+        border: none;
+        padding-left:17px;
+        padding-right:17px;
+        width: 95%;
+        font-size: 1.1em;
+        color: black; 
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        
+    }
+    .searchbar::placeholder{
+        font-size: 0.8em;
+    }
+    
+    
+    /*company top*/
+    .company{
+        color:gold;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+    
+    }
+
+     /*back top*/
+     #back2Top{
+        width: 50px;
+        line-height: 50px;
+        overflow: hidden;
+        z-index: 2;
+        display: none;
+        cursor: pointer;
+        -moz-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+        position: fixed;
+        border-radius: 50%;
+        bottom: 65px;
+        right: 0;
+        margin-right: 20px;
+        background-color:  rgb(246, 247, 248);
+        color: grey;
+        text-align: center;
+        font-size: 2em;
+        text-decoration: none;
+        }
+        #back2Top:hover {
+            background-color: rgb(246, 247, 248);
+            color: #0067B6;
+        }
+      /*back top*/
+      .whatsapp{
+        width: 50px;
+        height: 50px;
+        overflow: hidden;
+        z-index: 2;
+        cursor: pointer;
+        -moz-transform: rotate(270deg);
+        -webkit-transform: rotate(270deg);
+        -o-transform: rotate(270deg);
+        -ms-transform: rotate(270deg);
+        transform: rotate(270deg);
+        position: fixed;
+        border-radius: 50%;
+        bottom: 65px;
+        right: 0;
+        margin-right: 20px;
+        color: grey;
+        text-align: center;
+        font-size: 2em;
+        text-decoration: none;;
+        }
+        .whatsapp img{
+            width: 50px;
+            height: 50px;
+        }
+     /*footer design*/
+   .authoptions-footer{
+        color: black;
+        bottom: 0;
+        width: 310px;
+        height:17px;
+        background-color:transparent; 
+        text-align: center;
+        font-size: 0.9em;
+     }
+        /*dropdown design*/
+        .authoptions .all-dropdown{
+            display: none;
+            margin-top: 2px;
+            padding: 5px;
+            border-radius: 2px;
+            width: 100%;
+            z-index: 1;
+        }
+        .authoptions .all-dropdown a{
+                width: 100%; 
+                color: black;
+                padding-top:15px;
+                margin-left: 15px;
+                padding-left: 15px;
+                display: block;
+                height: 50px;
+                font-size: 1.2em;    
+            } 
+          
+         /*img placeholder*/
+         .signup-placeholder img{
+          height: 100px;
+          width: 100px;
+          border-radius:50%;
+         }
+         /* notifications */
+         .notification-details{
+            text-decoration:none;
+            color: black; 
+            height: 50px; 
+            border-top: 1px solid rgb(225, 225, 226);
+         }
+         .notification-heading{
+             padding: 10px;
+         } 
+         .notification-info{
+             margin-left: 15px;
+         }
+         /*---response-page----*/
+         .back-to-products{
+            height: 40px;
+            width: 260px;
+            background-color: #0067B6;
+            color: white;
+            font-size: 0.6em;
+            font-weight: normal;
+            border-radius: 10px;
+            border: none;
+            margin-top: 20px;
+            outline-color: transparent;
+        
+        } 
+        .signup-placeholder{
+            cursor: pointer;
+             height: 100px; 
+             width: 100px; 
+             border-radius: 50%; 
+             background-size: 100px; 
+             background-repeat: no-repeat; 
+             background-position: center;
+            }
+         .response-text {
+            display: inline-block;
+            max-width: 550px;
+            margin: 0 auto;
+            font-size: 1.5em;
+            text-align: center;
+            background: #fff3de;
+            padding: 42px;
+            border-radius: 3px;
+            border: #f5e9d4 1px solid;
+            font-family: arial;
+            line-height: 34px;
+        }
+       /*----text-box-area----*/
+       .textbox-area .choose-image img{
+        height: 50px;
+        width:  50px;
+    }
+
+   
+    /*---admin-design----*/
+    .management-heading{
+        text-align:center; 
+        color: gold; 
+        font-weight: normal;
+         font-size: 1.2em;
+        }
+     .admin-top-heading{
+        text-align:center; 
+        color: #0067B6; 
+        font-size: 1.5em;
+    }
+    .select-senders{
+        height: 50px; 
+        width: 100px; 
+        border: none; 
+        background-color:transparent;
+        font-size: 1em; 
+    }
+    .textbox-area-admin{
+        display: inline-flex;
+         margin-top: 10px;
+    }
+    /*---management------*/
+    .management-top{
+            height: 120px;
+            background-color: #0067B6;
+            margin:0; 
+            border:1px solid transparent;
+            width: 100%;
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            left:0;
+            right: 0;
+    }
+    .management-options{
+        border:1px solid transparent;
+        height: 200px;
+        background-color: rgb(5, 2, 24);
+        width: 100%; 
+        margin:0; 
+    }
+    .options-admin{
+        font-size: 1em;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        text-decoration: none;
+        color: white;
+        display: inline-flex;
+        margin-left: 20px;
+    }
+    #iframeDisplay{
+        border: none;
+        background-color: transparent;
+        margin-top: 120px;
+    
+    } 
+    /*---no-products-----*/
+    .no-products{
+        margin-top: 50px;
+        text-align: center;
+        font-size: 1em;
+        color: grey;
+    }
+       /*----update-for-store-customer---*/
+       .image-update-container{
+        height:100px;
+        border-radius:50%;
+        width:100px;
+    }
+    /*----store---information-----*/
+    #contact{
+        text-align: center;
+       font-size: 1em;
+       margin-top: 40px;
+   }
+   .info-headings{
+       color:#0067B6;
+       font-size: 1.3em;
+      
+   }
+ /* -----auto slider top product----*/
+ 
+        .top-product-welcome{
+            font-size: 2.2em;
+            color: #0067B6;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            animation: captionText .5s ease;
+        }
+
+        .top-product-name{
+            font-size: 1.1em;
+            color:rgb(5, 2, 24);  
+            font-weight: bold;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            margin-top: 5px;
+            animation: captionText .5s ease;
+        }
+
+    @keyframes captionText{
+            0%{
+                transform: scale(0.70);
+
+            }
+            100%{
+                transform: scale(1);
+            }
+
+        }
+        @keyframes top-product{
+            0%{
+                transform: scale(0.95);
+
+            }
+            100%{
+            transform: scale(1);
+            }
+
+        }
+    .section-heading{
+            margin-left: 50px;
+            margin-top:10px; 
+            font-size: 1em;
+            color: rgb(5, 2, 24);
+            font-weight: normal;
+        }
+   
+     .top-section-container{
+        width: 100%;
+        margin:auto;
+        background-color: transparent;
+        border-radius: 5px;
+        margin-top: 95px;
+     }  
+     .top-display-container{
+       display: inline-flex; 
+       border: none;
+      }
+     .top-product-details-slider{
+        display: block;
+         margin-left:20px;
+         margin-top: 5px;
+         position: absolute;
+        
+     }
+    .slider{
+        width: 100%;
+        height: 500px;
+        border-radius: 2px;
+        overflow: hidden;
+      }
+    
+      .top-container-top-product{
+        width: 700px;
+        overflow: hidden;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .slides{
+        width: 500%;
+        height: 500px;
+        display: flex;
+        position: relative;
+      }
+      
+      .slides input{
+        display: none;
+      }
+      
+      .slide{
+        width: 20%;
+        transition: 2s;
+      }
+      
+      .slide img{
+        width: 100%;
+        height: 500px;
+      }
+      
+      /*css for manual slide navigation*/
+      
+      .navigation-manual{
+        position: absolute;
+        width: 100vw;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+      }
+      
+      .manual-btn{
+        border: 1px solid rgba(182, 182, 184, 0.4);
+        width: 50px;
+        height: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        outline: none;
+        outline-color: none;
+        transition: 1s;
+      }
+      
+      .manual-btn:not(:last-child){
+        margin-right: 40px;
+      }
+      
+      .manual-btn:hover{
+        background: #004070;
+      }
+      
+      #radio1:checked ~ .first{
+        margin-left: 0;
+      }
+      
+      #radio2:checked ~ .first{
+        margin-left: -20%;
+      }
+      
+      #radio3:checked ~ .first{
+        margin-left: -40%;
+      }
+      
+      /*css for automatic navigation*/
+      
+      .navigation-auto{
+        position:absolute;
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        margin-top: 430px;
+        padding: 50px;
+      }
+      
+      .navigation-auto div{
+        border: 1px solid rgba(182, 182, 184, 0.4);
+        width: 50px;
+        border-radius: 5px;
+        height: 5px;
+        transition: 1s;
+      }
+      
+      .navigation-auto div:not(:last-child){
+        margin-right: 40px;
+      }
+      
+      #radio1:checked ~ .navigation-auto .auto-btn1{
+        background: #004070;
+      }
+      
+      #radio2:checked ~ .navigation-auto .auto-btn2{
+        background: #004070;
+      }
+      
+      #radio3:checked ~ .navigation-auto .auto-btn3{
+        background:#004070;
+      }
+    /* sell product */
+    .notification-message{
+        text-align: center;
+        font-size: 1.2em; 
+        color: gold;
+        background-color: white;
+        width: 360px;
+        padding: 10px;
+        margin: auto;
+    }
+    
+    #sellimg{
+        margin-left: 20%;
+        color: black;
+     }
+    .productback-sell{
+        border: 1px solid transparent;
+        margin-top: 50px;
+        margin-left: 15vw;
+        width: 990px;
+    }
+    
+    .addbutton{
+        border: 2px solid #0067B6;
+        height: 40px;
+        margin-top:20px;
+        width: 200px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: transparent;
+        font-size: 0.9em;
+        color: #0067B6;
+        padding: 10px;
+        cursor: pointer;
+     }
+     .frame-video{
+      width: 200px;
+      height: 200px;
+      background-color: gainsboro;
+    
+     }
+     .frame-display{
+        display: block;
+       } 
+    .frame{
+        border:none;
+        width: 600px; 
+        height: 200px;
+        overflow: hidden;
+        background-color: white;
+        min-width: 200px;
+        min-height: 200px;   
+    } 
+    #sellbutton{
+        border: 2px solid #0067B6;
+        width: 150px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 44%;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 0.9em; 
+        background-color: transparent;
+        margin-bottom: 100px;
+        color: #0067B6;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+    }
+    #prodtitle{
+        color: #1a73e8;
+        text-align: center;
+        font-size: 2.2em;
+        font-weight: bold;
+    }
+    .prodescr{ 
+        border: 0.5px solid rgb(219, 219, 219);
+        height: 40px;
+        width: 500px;
+        padding-left: 10px;
+        font-size: 1em;
+       
+    }
+    
+    #prodinfo{
+        margin-top: 5px;
+        font-size: 1em;
+        margin-left: 20%;
+        color: black;
+    }
+    #description{
+        border: 0.5px solid rgb(219, 219, 219);
+        height: 100px;
+        width: 500px;
+        padding: 10px;
+        resize: none;
+        font-size: 1em;
+     
+    }
+    
+ /*----tables-----*/
+ .all-tbls{
+    font-size: 1em;
+    width: 1200px;
+    margin:auto;
+    margin-top: 85px; 
+}
+.all-tbls  th{
+    font-weight: normal;
+    background-color: gold;
+    color: #0067B6;
+}
+.tbl-small-image{
+    height:60px; 
+    width:60px; 
+    border-radius:50%;
+
+}
+.all-tbls-store{
+    font-size: 1em;
+    width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+}
+.all-tbls-store  th{
+    font-weight: normal;
+    background-color: gold;
+    color: #0067B6;
+}
+.tbl-small-image-store{
+    height:20px; 
+    width:20px; 
+    border-radius:50%;
+
+}
+   /*--product--*/
+   .cart-action{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    display: inline-flex; 
+    width: 100%;
+}
+.product-quantity{
+    background-color: rgba(253, 253, 253, 0.527);
+    width:35%;
+    border:none;
+    border-radius: 5px;
+    padding-left: 3px; 
+    font-size:1em; 
+    height:30px;
+    margin-left: 5%;
+}
+.buttonprod{
+    background-color: #0067B6;
+    color: white;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width:40%;
+    border-radius: 20px;
+    font-size: 0.6em;
+    margin-left: 15%;
+    text-align: center;
+  }
+
+    .productImg{
+        width: 100%;
+        height: 220px;
+
+   }
+
+    .productdeco{
+        border: 1px solid rgba(182, 182, 184, 0.4);
+        width:220px;
+        height:320px;
+        padding:2px;
+        background-color: white;
+        text-decoration: none;
+        overflow: hidden;
+        margin-bottom: 2vw;
+        margin-right: 15px;
+        margin-left: 5px;
+        float:left; 
+        transition: 500ms linear;
+    }
+    .productdeco:hover{
+        transform: scale(1.1);
+    }
+
+    .store-name-productdeco{
+        font-weight:normal;
+        margin-left: 5px;
+        margin-top: 5px;
+        color:grey;
+     
+     }
+   /*product--details--*/
+   .products-heading-section{
+       font-size: 1.2em;
+       font-weight: normal;
+       text-align: center;
+   }
+   .add-to-cart{
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width:140px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin-left: 5px; 
+    text-align: center;
+  }
+  .add-to-wishlist{
+    background-color: #0067B6;
+    color: white;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    width:140px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 0.7em;
+    margin-left: 15px; 
+    text-align: center;
+  }
+  .product-quantity-product{
+    background-color: rgba(253, 253, 253, 0.527);
+    width:140px;
+    border:1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    padding-left: 3px; 
+    font-size:1em; 
+    height:30px;
+}
+.choose-color-quantity{
+    background-color: rgba(253, 253, 253, 0.527);
+    width:140px;
+    border:1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    padding-left: 3px; 
+    margin-left: 5px;
+    font-size:1em; 
+    height:30px;
+
+
+}
+.choose-color-quantity-cart{
+    background-color: rgba(253, 253, 253, 0.527);
+    width:140px;
+    border:1px solid rgb(240, 240, 240);
+    border-radius: 5px;
+    padding-left: 3px; 
+    margin-left: 5px;
+    font-size:1em; 
+    height:30px;  
+}
+.color-wishlist-container{
+    margin-top: 5px;
+    margin-left: 15px;
+    display: inline-flex;
+}
+   .container-product-img-info{
+    display: inline-flex;
+    margin-top: 20px;
+    margin-left: 10%;
+ }
+   .cart-action-product{
+    display:inline-flex;
+    margin-top: 5px;
+    margin-left: 5px;
+   }
+   .details-action-container{
+       display: block;
+   }
+    .proddet{
+        margin-left:20px; 
+    }
+    .proddet-comp{
+        text-align: center;
+    }
+    .company-name-product{
+    font-size:1em; 
+    font-weight: bold; 
+    color: #0067B6;
+    height: 40px;
+    }
+    .store-image-product{
+    height:50px;
+    width:50px; 
+    border-radius: 50%;
+    }
+    .productback-product{
+        border: 1px solid transparent;
+        margin-top: 50px;
+        margin: auto;
+        width: 1200px;
+    }
+    .product-name{
+        text-align: center;
+        font-size: 3em; 
+        font-variant-caps: all-petite-caps;
+        font-weight:bold; 
+        font-family: 'Times New Roman', Times, serif;
+       }
+    .small-images{
+        width:90px; 
+        height: 90px;
+        cursor: pointer;
+        transition: transform ease-in-out 0.3s;
+    }
+    .small-video{
+        width:90px; 
+        height: 90px;
+        cursor: pointer;
+    }
+    .small-images:hover {
+        transform: scale(1.2);
+      }
+    .comment{ 
+        border: 1px solid transparent;
+        padding: 20px; 
+        margin:auto;
+        width:  500px;
+        height: 65vh;
+        overflow-y: auto;
+        overflow-x:hidden;
+        border-radius: 20px;
+        text-align: left;
+        word-wrap: break-word;
+        background-color:white;
+    
+    }
+    .comment::-webkit-scrollbar{
+        display: none;
+    }
+  
+    .product-reviews-textbox-container{
+        display: block;
+        width:  700px;
+        margin: auto;
+     }
+       .textbox-area-product{
+        display: inline-flex;
+         margin-left:25%;
+    }
+    .review-title{
+        text-align: center; 
+        font-size: 1.5em;
+        padding-top: 20px;
+         color: #0067B6;
+    }
+    .messages-textbox-container{
+        display: block;
+        width:  600px;
+        margin: auto;
+     }
+     
+    .reviews-container{
+        margin: auto;
+        width: 600px;
+        padding-bottom: 100px;
+        }
+    .product-button-to-store{
+        cursor: pointer;
+         background-color: transparent;
+         border: none;
+         text-align: center;
+          font-weight: bold;
+           color: black; 
+           font-size: 1em; 
+           padding: 5px;
+           outline-color: none; 
+    }
+    .namedsgn{
+        font-size: 1em;
+        margin-bottom: 2px;
+        width: 400px;
+         
+    }
+    .product-main-image{
+       margin-left: 10px;
+       width:500px;
+        height: 400px;
+    }
+    /*----profile----*/
+    .details{
+        font-size: 1.2em;
+        color:#0067B6;
+        margin-top: 20px;
+        margin-left: 20px;
+      }
+    .button-for-profiles{
+        height: 30px;
+        font-size: 0.8em;
+        border: none;
+        margin-top: 5px;
+        margin-left: 2vw;
+        background-color: #0067B6;
+        border-radius: 2px;
+        outline-color: transparent; 
+        cursor: pointer;
+        color: white;
+        font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+   }
+   /*-----messaging elements*/
+   .messages-textbox-container{
+    display: block;
+    width:  670px;
+    margin: auto;
+    height: 85%;
+    background-color: white;
+ }
+ 
+   .no-messages{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1em;
+    color: grey;
+}
+
+    .textbox-area{
+        display: inline-flex;
+         margin:130px;
+         margin-top: 10px;
+    }
+    .textbox-area-help-review{
+        display: inline-flex;
+        margin-left:140px;
+        margin-top: 10px;
+
+    }
+    .textbox{
+        border: transparent;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        padding: 10px; 
+        resize: none;
+        background-color: rgb(250, 250, 255); 
+        height: 50px; 
+        font-size: 1.2em;
+        font-style: normal;
+        overflow-y: auto;
+        overflow-x:hidden;
+        width: 300px;
+       }
+       .textbox::placeholder{
+        font-size: 1.2em;
+        margin: 5px;
+    }
+      .send-button{
+          background-color:#0067B6;
+           height: 50px;
+           width: 70px;
+           border-bottom-right-radius: 5px; 
+           border-top-right-radius: 5px; 
+           color: white;
+           font-size: 1.3em;
+           text-align: center;
+           cursor: pointer;
+      }
+      .choose-image{
+          cursor: pointer;
+          border: none;
+          margin: auto;
+          height: 50px; 
+          width: 50px; 
+          background-size: 50px;
+          background-repeat: no-repeat;
+          background-position: center;
+      }
+      
+      .msg-com-image{
+          background-color: transparent;
+          border: 1px solid transparent;
+          width: 100px;
+          margin-left:100%;
+          margin-top:20px;
+          border-radius: 20px;
+          color: black;
+          padding: 10px;
+          font-weight: normal;
+      }
+      .msg-images{
+          width: 200px;
+          height: 200px;
+          margin-left: 60px;
+      }
+      .body-background-with-design-messages{
+        background-color: rgb(243, 243, 243);
+        overflow: hidden;
+   }
+      .msg-com{
+        background-color: rgb(245, 245, 245);
+          border: 1px solid transparent;
+          width: 300px;
+          margin-top:10px;
+          border-top-left-radius: 40px;
+          border-bottom-right-radius: 40px;
+          border-top-right-radius: 40px;
+          color: black;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 5px;
+          font-weight: normal;
+         }
+         .msg-com-img{
+            border: 1px solid transparent;
+            width: 300px;
+            margin-top:10px;
+            border-radius: 40px;
+            color: black;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            font-weight: normal;
+           }
+           
+         .message-seen-by-customer{
+             height: 10px;
+             width: 10px;
+             border-radius: 50%;
+             float:right;
+         }
+         .message-seen-by-owner{
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            float:left;
+         }
+         .msg-com-me-image{
+          background-color:transparent;
+          border: 1px solid transparent;
+          width: 200px;
+          margin-top: 10px;
+          border-radius: 10px;
+          color: black;
+          padding: 10px;
+          font-weight: normal;
+         }
+         .msg-com-me{
+          background-color: #0067B6;
+          border: 1px solid transparent;
+          width: 300px;
+          margin-top: 10px;
+          border-top-left-radius: 40px;
+          border-bottom-left-radius: 40px;
+          border-top-right-radius: 40px;
+          color: white;
+          padding-left: 20px;
+          padding-right: 20px;
+          padding-bottom: 5px;
+          font-weight: normal;
+         } 
+         .msg-com-me-img{
+            border: 1px solid transparent;
+            width: 300px;
+            margin-top: 10px;
+            border-radius: 40px;
+            color: black;
+            padding-bottom: 10px;
+            font-weight: normal;
+         }
+         .date-message{
+            font-size:0.8em;
+            color:grey;
+            text-align:center;
+           }
+           .date-message-me{
+            font-size:0.8em;
+            color:rgb(210, 226, 255);
+            text-align:center;
+           }
+           .date-message-img-me{
+            font-size:0.8em;
+            color:grey;
+            text-align:center;
+           }
+
+           .date-message-img-someone{
+            font-size:0.8em;
+            color:grey;
+            text-align:center;
+           } 
+              
+      .sendby-me{
+          border: 1px solid transparent; 
+          border-radius:90px;
+          font-size:1.2em;
+          height: 40px;
+          width: 40px;
+          color: rgb(210, 226, 255);
+          margin-top: 20px;
+      }
+      .sendby-someone{
+          border: 1px solid transparent; 
+          border-radius: 90px;
+          font-size:1.2em;
+          height: 40px;
+          width: 40px;
+          margin-top: 20px; 
+          color:rgb(226, 226, 226);
+       
+      }
+    .design{
+        border: none;
+        padding: 10px; 
+        margin: auto;
+        width:  670px;
+        height: 75vh;
+        overflow-y: auto;
+        overflow-x:hidden;
+        border-radius: 10px;
+        text-align: left;
+        word-wrap: break-word;
+        background-color: rgb(250, 250, 255);
+       
+       }
+       .design::-webkit-scrollbar{
+        display: none;
+    }
+            .top-product-images{
+                width: 230px;
+                height: 230px;
+                border: none;
+                float: left;
+            }  
+            
+      /*---my profile ---*/  
+      .myprofile-profile{
+        text-align: center; 
+        color: #1a73e8;
+        font-size: 1.4em;  
+      }    
+    .username-profile{
+        text-align: center; 
+        color: rgb(5, 2, 24); 
+        font-size: 2em;
+        font-weight: bold;
+     }
+
+     .profile-image{
+         height:100px; 
+         border-radius:50%;
+          width:100px;
+          margin-left: 30px;
+     }
+    .profile-background{
+        margin: auto;
+        margin-top: 20px;
+        padding-bottom: 10px; 
+        background-color: white;
+        border: 1px solid transparent;
+        width: 600px; 
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        }
+
+        /*------store side design-----*/
+        .buttonprod-mystore-update{
+            background-color: #0067B6;
+            color: white;
+            cursor: pointer;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            width:45%;
+            height:30px;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-left: 2.5%; 
+            text-align: center;
+          }
+          .mystore-name{
+              font-weight: bold;
+          }
+          .mystore-orders{
+              font-weight: bold;
+          }
+          .buttonprod-mystore-delete{
+            background-color: red;
+            color: white;
+            cursor: pointer;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            width:45%;
+            height:30px;
+            border-radius: 5px;
+            font-size: 1em;
+            margin-left: 5%; 
+            text-align: center;
+          }
+        .profile-image-store{
+            height:90px; 
+            border-radius:50%;
+             width:90px;
+             margin-bottom: 5px;
+        }   
+    
+          .top-store{
+                    height: 200px;
+                    background-color: #0067B6;
+                    opacity: 0.8;
+                    margin:0; 
+                    width: 100%;
+                    overflow: hidden;
+                    top: 0;
+                    left:0;
+                    right: 0;
+                }
+            .top-store-cover{
+                    height: 200px;
+                    margin:0; 
+                    background-size:cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    overflow: hidden;
+                    top: 0;
+                    left:0;
+                    right: 0;
+                }
+        .top-left-button-custom{
+            border: 2px solid white;
+            width: 70px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 0.8em;
+            color: white;
+            margin-top: 5px;
+            margin-left: 5px;
+            cursor: pointer;
+            background-color: transparent;
+        }
+        
+        .top-right-button-custom{
+            border: 2px solid white;
+            width: 90px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px; 
+            font-size: 0.8em;
+            color: white;
+            float: right;
+            margin-top: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+            background-color: transparent;
+        
+        }  
+
+
+  /*----chat design-----*/ 
+  .chats-heading{
+    float: left;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+   }
+   .chats-heading-messaging{
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 2px;
+   }
+   .chats-heading-help-review{
+    font-size: 1.2em;
+    font-weight: normal;
+    margin-left: 30vw;
+    margin-top: 5px;
+   }
+  .chats-container{
+   text-align: left; 
+   cursor: pointer; 
+   border:none;
+   background-color: transparent;
+    height: 60px; 
+    width: 100%; 
+    font-size: 1.2em;
+
+  }
+   .chats-profile-image{
+ height:40px; 
+ width:40px;  
+ border-radius:50%; 
+ margin-bottom: 5px;
+   }
+
+   .chats-sender{
+       margin-left: 20px;
+        color:black;
+    }
+ /*----top----*/    
+    .top{
+        height: 85px;
+        background-color: #0067B6;
+        margin:0; 
+        border:1px solid transparent;
+        width: 100%;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left:0;
+        right: 0;
+    }
+    .top-relative{
+        height: 40px;
+        background-color: transparent;
+        margin:0; 
+        border:1px solid transparent;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        border: none;
+        top: 0;
+        left:0;
+        right: 0;
+        z-index: 10;
+    } 
+    .top-left-button{
+            border: 2px solid #0067B6;
+            width: 70px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 0.8em;
+            color: #0067B6;
+            margin-top: 7px;
+            margin-left: 5px;
+            cursor: pointer;
+            background-color: transparent;
+        }
+        
+        .top-right-button{
+            border: 2px solid #0067B6;
+            width: 90px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px; 
+            font-size: 0.8em;
+            color: #0067B6;
+            float: right;
+            margin-top: 7px;
+            margin-right: 7px;
+            cursor: pointer;
+            background-color: transparent;
+        
+        }
+        .top-left-button-with-background{
+            border: 2px solid white;
+            width: 70px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px;
+            font-size: 0.8em;
+            color: white;
+            margin-top: 7px;
+            margin-left: 5px;
+            cursor: pointer;
+            background-color: transparent;
+        }
+        
+        .top-right-button-with-background{
+            border: 2px solid white;
+            width: 90px;
+            height: 25px;
+            font-weight: bold;
+            border-radius: 5px; 
+            font-size: 0.8em;
+            color: white;
+            float: right;
+            margin-top: 7px;
+            margin-right: 7px;
+            cursor: pointer;
+            background-color: transparent;
+        
+        }
+    .note-anchorindex{
+        height: 25px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight:bold;
+        text-decoration: none;
+        margin: auto;
+        color:white;
+        background-color: transparent;
+        display: inline-flex;
+    } 
+
+    .anchorindex{
+        height: 25px;
+        padding-top: 4px;
+        padding-right: 30px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        text-decoration: none;
+        margin: auto;
+        color:white;
+        background-color: transparent;
+        display: inline-flex;
+    }
+    .anchorindex:hover{
+        color: gold;
+        border: 1px solid white;
+    }
+    .anchorindex i{
+        display: none;
+    }
+
+    .anchorindex-names{
+        margin-left: 5px;
+    }
+ .txt-heading{
+    text-align: center;
+    font-size:1.2em;
+    color:  white;
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 5px; 
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.txt-heading-store{
+    text-align: center;
+    font-size:1.2em;
+    color:  white;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+.no-records{
+    margin-top: 25vh;
+    text-align: center;
+    font-size: 1.5em;
+    color: grey;
+}
+
+.emptyCart{
+    border: 2px solid white;
+    background-color:transparent;
+     width: 90px;
+     height: 25px;
+     color: white;
+     border-radius: 5px;  
+     font-size: 0.8em;
+     float: right;
+     margin-top: 10px;
+     margin-right: 5px;
+     cursor: pointer;
+}
+     /* about us  */
+     .ab-images{
+         width: 80%;
+         margin-left: 10%;
+         padding-bottom: 20px;
+         height: 400px;
+         border-radius: 10px;
+     }
+    .social-icons li img {
+        width:30px;
+        height:30px;
+        margin-right: 20px;
+      }
+      .heading{
+        font-size: 1.3em;
+        margin-left: 10px;
+      }
+      .heading-mission{
+        font-size: 1.3em;
+        margin-left: 10px;
+      }
+      .sub-heading{
+        font-size: 1.1em;
+        margin-left: 10px;
+      }
+      .my-info{
+        font-size: 1.1em;
+        margin-left: 10px;
+      }
+      
+      .all-info{
+        list-style: none;
+        margin-left: 15px;
+        font-size:1em;
+      
+      }
+
+/*----- auth forms*/
+.select-photo-label{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+    .invalid{
+        color:red;
+        background-color: white;
+        width: 360px;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        font-size: 1.2em;
+    }
+    .button-for-forms{
+        border: 2px solid #0067B6;
+        height: 30px;
+        font-size: 0.8em;
+        width: 100%;
+        margin-top: 20px;
+        background-color: transparent;
+        font-weight: bold;
+        border-radius: 15px;
+        outline-color: transparent; 
+        cursor: pointer;
+        color: #0067B6;
+        font-family:"Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+    #store{
+        border: none;
+        height: 50%;
+        width: 400px;
+        border-radius: 10px;
+        margin:  auto; 
+        background-color:white;
+        margin-top: 5px;
+        margin-bottom: 10%; 
+        font-size: 1.1em;
+        color: #555; 
+    }
+    #register{
+        border: none;
+        height: 50%;
+        width: 400px; 
+        border-radius: 10px; 
+        margin: auto;
+        background-color: white;
+        margin-top: 5px;
+        margin-bottom: 10%; 
+        font-size: 1.1em;
+        color: #555; 
+    }
+    .form-top{
+            height: 40px;
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            background-color: #1a73e8;
+            padding: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+    }
+    .form-name{
+    font-size: 1.2em; 
+    margin:auto;
+    font-weight: bold; 
+    color:white;
+    }
+    .form-body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .body-background-with-design{
+        background-color: rgb(243, 243, 243);
+   }
+
+    .login{
+        border: none;
+        height: 520px;
+        width: 350px;
+        background-color:white;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 50px;
+        font-size:1.1em;
+        color:#555; 
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        border-radius: 10px;
+    
+    }
+    .form-have-account{
+        margin-top: 30px;
+
+    }
+    
+    .form-input{
+     height: 100%;
+     width: 100%;
+     border: none;
+     padding-top: 20px;
+     background-color: transparent;
+    
+    }
+    .form{
+        width: 100%;
+        position: relative;
+        height: 50px;
+        margin-bottom: 50px;
+        overflow: hidden;
+        }
+    .form label{
+        position: absolute;
+        bottom: 0px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        border-bottom: 1px solid grey;
+
+    }
+    .form label::after{
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        border-bottom: 1px solid #0067B6;
+        transform: translate(-100%);
+        transition: all 0.3s ease;
+     }
+     .content-name{
+         position: absolute;
+         bottom: 5px;
+         left:0px;
+         transition: all 0.3s ease;
+     }
+  
+    #pass-status{
+        position: absolute;
+        float: right;
+        margin-left: -25px;
+        margin-top: 20px;
+    }
+    #password-field{
+       border: none; 
+       width: 100%;
+       height: 100%;
+       padding-top: 20px;
+       background-color:transparent;
+       
+    }  
+     .form input:focus + .label-name .content-name, .form input:valid + .label-name .content-name{
+         transform: translateY(-150%);
+         font-size: 0.9em;
+         color: #0067B6;
+     }
+     .form input:focus + .label-name::after , .form input:valid + .label-name::after{
+        transform:translateX(0%);
+     }
+     
+    .maintop{
+        background-color: #004070;
+        width: 100%;
+        right: 0;
+        left: 0;
+        height: 35px;
+        font-size: 0.8em;
+        margin-top: 60px;
+        position: fixed;
+        z-index: 1;
+        list-style: none;
+        display: inline-flex;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-decoration: none;
+    
+    } 
+    .maintop-placeholder{
+        background-color: #004070;
+        width: 100%;
+        right: 0;
+        left:0;
+        height: 30px;
+        font-size: 0.8em;
+        margin-top: 60px;
+        position: fixed;
+        z-index: 1;
+        list-style: none;
+        display: inline-flex;
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        text-decoration: none;
+    
+    } 
+    .main-options{
+        font-size: 1.5em;
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .profile-picture{
+        height: 90px;
+        width: 90px;
+        margin-left: 10px;
+        border-radius: 50%;
+        font-size: 1.5em;
+
+    }
+    .enclose-inner-container{
+        display: inline-flex;
+    }
+    .enclose{
+        background-color: #0067B6;
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        left:0;
+        right: 0;
+        height: 60px;
+        padding-bottom: 20px;
+    }
+        .authoptions{
+            border:none;
+            width: 20%;
+            background-color:rgba(65, 65, 65,0.4);
+            left: 0;
+            position: absolute;
+            list-style: none;
+            height: 100vh;
+            width: 100%;
+            display: none;
+            top:0;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-size: 0.8em;
+            text-decoration: none;
+            overflow-y: scroll;
+            z-index: 10;
+        
+        }
+       .authoptions-inner-container{
+          width:  350px;
+          height: 120vh;
+          top: 0;
+          background-color: white;
+
+       }
+        .top-dropper-main-options{
+            font-size: 1.2em;
+            margin-left: 15px;
+            margin-top: 10px;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            float:left;
+            text-decoration: none;
+            cursor: pointer; 
+        }
+        .top-dropper-container{
+            width: 100%;
+            right: 0;
+            top: 0;
+            left: 0;
+            list-style: none;
+            display: inline-flex;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            text-decoration: none; 
+        }
+        .top-dropper-container-all{
+            height: 30px;
+            list-style: none;
+            display: inline-flex;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            text-decoration: none; 
+        } 
+        .authoptions-remover{
+            float:right;
+            font-size: 4em;
+            margin-right: 15px;
+            margin-top: 5px;
+            color:white;
+            font-weight: lighter;
+            text-align: center;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+         .authoptions::-webkit-scrollbar{
+            display:none;
+        }  
+    .authoptions  div{
+       padding: 15px;
+    }
+    .maintop  div{
+        margin: auto;
+    }
+    .maintop-placeholder div{
+        margin: auto;
+    }
+    .main-option-container .main-options{
+        width: 45%; 
+       color: black;
+       padding-top:5px;
+       display: block;
+       font-size: 1.2em;
+    }  
+  
+    .authoptions hr{
+        color: white;
+        margin: auto;
+        width: 90%;
+    }
+    /*---top product*/
+    .top-product-details{
+        display: block;
+         margin-left: 400px; 
+         float: right;
+     }
+
+
+    /*--all  div container---*/
+    .main{
+        overflow-x: hidden;
+        background-color: rgb(246, 247, 248);
+    }
+    .products{
+        width: 1200px; 
+        margin:auto;
+        margin-top:10px; 
+        padding-bottom: 100px;
+    }
+    .products-main-page{
+        width: 1200px; 
+        margin: auto;
+        margin-top: 100px; 
+    }
+    .products-main-page-allproducts{
+        width: 1200px; 
+        margin: auto;
+    }
+    /* categories*/
+    .ctgry{
+        font-size:0.8em;
+        background-color:transparent;
+        border: none;  
+        outline-color: transparent;
+        width:12vw;
+        margin-top: 5px;
+        border: none;
+        color: white;
+    }
+    #ctgry-not-logged{
+        font-size:1em;
+        background-color: transparent;
+        border: none;  
+        outline-color: transparent;
+        width:12vw;
+        margin-top: 5px;
+        border: none;
+        color: white;
+    }
+    .top-category{
+        background-color: transparent;
+        background-color: white;
+        margin-bottom: 20px;
+        width: 100%;
+       }
+    .top-category-outer{
+        width: 1200px;
+        margin:auto;  
+    } 
+    .category-background{
+        padding: 20px; 
+        width: 1200px;
+        background-color:transparent;
+        border-radius: 5px;
+    }
+    .top-container-category{
+        width: 1150px;
+        padding-top: 20px;
+        margin: auto;
+        overflow: hidden;
+        background-color: transparent;
+        border-radius: 5px;
+    }
+    .main-category{ 
+        border: 1px solid transparent;      
+        height:200px; 
+        width:200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 160px; 
+        
+        font-weight: lighter;
+       }
+
+    .category-container{
+        margin-bottom: 15px;
+        margin-left: 20px;
+        display: inline-flex;
+        padding-bottom: 20px;
+        transition: linear 500ms;
+    }
+    .main-category-names{
+        text-align:center;
+        display: inline-block;
+        color: rgb(90, 90, 90);
+        font-size:0.9em; 
+        font-weight: bold;        
+    }
+ 
+
+}
+
+.myProfile{
+     color:white;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+     text-decoration: none;
+     margin-right: 10px;
+     font-size: 0.8em;
+     cursor: pointer;
+}
+
+
+.myProfile:hover{
+    color: gold;
+}
+.contactindex{
+    text-decoration: none;
+    margin-left: 5vw;
+    margin-top: 16px;
+    color: white;
+}
+.contactindex:hover{
+    color: gold;
+}
+
+.social-icons {
+    text-align: center;
+    }  
+  .social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    }
+  .social-icons li a {
+    border-bottom: none;
+    }
+  body{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }

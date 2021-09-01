@@ -1,0 +1,30 @@
+
+.product-main-image{
+	margin: 10vh 5vw;
+	background-color: blue;
+	height: 100px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: #f5f5f5;
+	font-size: 1.5rem;
+	border-radius: 10px;
+	transition: 1s;
+	cursor: pointer;
+	
+	&.full-screen {
+		height: 100vh;
+		z-index: 100;
+		margin: 0;
+		border-radius: 0;
+	}
+	
+	&-container-product-img-info{
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		box-sizing: border-box;
+	}
+}
